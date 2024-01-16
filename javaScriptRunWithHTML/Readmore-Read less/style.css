@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+div{
+    border-radius:15px;
+    margin:30px;
+    padding:50px;
+    box-shadow: 5px 5px 5px 5px  rgb(32, 30, 31);
+
+}
+
+.text{
+    padding:10px;
+    text-align: justify;
+    padding-top:15px;
+    padding-bottom:25px;
+
+}
+
+.more-text{
+    display: none;
+
+}
+
+.read-more-btn{
+    border-radius: 15px;;
+    padding:10px 20px;
+}
+.text.show-more .more-text{
+    display:inline;
+}
