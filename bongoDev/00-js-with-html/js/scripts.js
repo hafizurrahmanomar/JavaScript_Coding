@@ -1,3 +1,8 @@
+function textChange(){
+   document.getElementById('text-change').innerText='Hello Javascript';
+}
+
+
 function getButtonElement() {
   const button = document.getElementById('btn');
   return button;
