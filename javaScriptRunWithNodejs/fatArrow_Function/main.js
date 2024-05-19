@@ -2,10 +2,10 @@
 
 let a = 6;
 let b = 8;
-
+//Normal function
 const sum = () => { return a + b };
 console.log(sum());
-
+//Same above
 const sum1 = () => a + b;
 console.log(sum1());
 

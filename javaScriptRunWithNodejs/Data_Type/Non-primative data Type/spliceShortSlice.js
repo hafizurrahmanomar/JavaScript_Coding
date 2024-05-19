@@ -47,14 +47,29 @@ console.log(villageName);
 //array number sort
 let numbers = [1,2,3,10,12,5];
 
-numbers = numbers.sort(function(a,b){
-    return a-b;
-});
+// numbers = numbers.sort(function(a,b){
+//     return a-b;
+// });
+
+numbers = numbers.sort((a,b)=>{
+  return a,b
+})
+
+console.log(numbers);
 console.log(numbers);
 
 //reverse sort
-numbers = numbers.sort(function (a, b) {
-  return b - a;
-});
-console.log(numbers);
+// numbers = numbers.sort(function (a, b) {
+//   return b - a;
+// });
 
+numbers = numbers.sort((a,b)=> a>b?-1:1)
+
+console.log(numbers);
+// every
+let numberList = [1,2,3,5,8,10];
+let num_1 = numberList.every((item)=>item>4);
+// some
+let numberList1 = [2,3,4,5,10];
+let num_2 = numberList1.some((item)=>item>4);
+console.log(num_2);
