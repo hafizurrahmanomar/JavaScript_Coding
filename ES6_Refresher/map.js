@@ -11,6 +11,10 @@ let squareNumber = number.map(function(item){
     return item*2
 })
 
+let cubes =number.map((item)=>{return item*3});
+console.log(`Cubes number is = ${cubes}`);
+let shortCubes = number.map(item=> item*3);
+console.log(`Short formula = ${shortCubes}`);
 console.log(squareNumber);
 
 let Num = [1,2,3,4,5,6,7,8,9,10];

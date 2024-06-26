@@ -58,17 +58,23 @@ const products = [
     categories: ['Peripherals', 'Printers'],
   },
 ];
+
+
 let selectedCategory = null;
 
 class Cart {
   constructor() {
     this.cart = [];
   }
+
+
   getProductIndexInCart(productId) {
     return this.cart.findIndex(function (product) {
       return product.id === productId;
     });
   }
+
+  
   isProductExistInCart(productId) {
     return this.getProductIndexInCart(productId) !== -1;
   }

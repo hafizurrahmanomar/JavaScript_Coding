@@ -7,3 +7,4 @@ const Hafiz={
     }
 }
 Hafiz.fullName();
+console.log("hafiz");
