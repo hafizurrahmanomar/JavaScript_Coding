@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>02-javaScript_onclick_CSS</title>
+  </head>
+
+  <body>
+    <h1 id="one">Heading-Select by ID Name</h1>
+    <h1 id="two"></h1>
+    <p></p>
+
+    <!-- Heading one color change -->
+    <button onclick="document.querySelector('#one').style.color='blue'">
+      Heading One color change
+    </button>
+    <!-- I love JavaScript -->
+    <button onclick="document.querySelector('p').style.display='none'">
+      I love JavaScript
+    </button>
+
+    <script src="./dom.js"></script>
+  </body>
+</html>
